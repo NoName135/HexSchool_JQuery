@@ -1,0 +1,242 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+.bar{
+	padding: 10px 0 10px 0;
+	height: 30px;
+	color: #f6f6f6;
+}
+.bar ul{
+	float: right;
+}
+.bar ul li{
+	float: left;
+	margin: 5px;
+}
+.bar a{
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+}
+.bar img{
+	margin-right: 2px;
+	float: left;
+}
+.facebook span{
+	color: #4460a0;
+	padding-right: 8px;
+	border-right: 2px solid #cccccc;
+}
+.twitter span{
+	color: #3fb5ed;
+}
+.top{
+	height: 50px;
+}
+.topimg{
+	float: left;
+	background-image: url(../img/logo.png);
+	width: 174px;
+	height: 36px;
+	display: block;
+	text-indent: 101%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.menu{
+	float: right;
+}
+.menu >li{	
+	float: left;
+	width: 85px;
+}
+.menu ul{
+	display: none;
+}
+.menu a{
+	display: block;
+	line-height: 45px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: #26d0a1;
+	transition: all .3s;
+}
+.menu a:hover, .menu a.active{
+	background-color: #26d0a1;
+	color: #fff;
+}
+.dropdown-open{
+	width: 85px;
+	position: absolute;
+	z-index: 7;
+	background: #fff;
+}
+.content ul li{
+	float: left;
+	width: 273px;
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px gray;
+}
+.content h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+.content ul ul{
+	text-align: left;
+}
+.content ul ul li{
+	float: none;
+	border: none;
+	box-shadow: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.content p{
+	text-align: left;
+}
+.lesson{
+	clear: both;
+	margin: 100px;
+}
+.lesson h1{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 30px;
+}
+.lesson th, .lesson td{
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 10px 88px 10px 10px;
+}
+.lesson th{
+	background: #f6f6f6;
+	text-align: left;
+}
+.green-word{
+	color: #43b392;
+}
+.box{
+	padding-bottom: 300px;
+	background:linear-gradient(#00644b,#009872);
+	background:-webkit-linear-gradient(#00644b,#009872);
+	background:-moz-linear-gradient(#00644b,#009872);
+	background:-o-linear-gradient(#00644b,#009872);
+}
+.box h2{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	padding: 25px;
+	line-height: 30px;
+}
+.box .form-content{
+	width: 460px;
+	padding: 20px;
+	float: left;
+}
+.box .message{
+	border-radius: 5px;
+	width: 460px;
+	padding-bottom: 100px
+}
+.box .form-information{
+	width: 460px;
+	padding: 20px;
+	float: left;
+}
+.box h3{
+	color: #fff;
+	padding: 10px 0 10px 0;
+}
+.box .text{
+	border-radius: 5px;
+	width: 460px;
+	height: 20px;
+}
+.box .submit{
+	width: 60px;
+	height: 30px;
+	float: right;
+	margin-top: 20px;
+	background: #00cc99;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+.box .submit:hover{
+	cursor: pointer;
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.footer{
+	height: 100px;
+}
+.footer img{
+	float: left;
+	padding: 20px;
+}
+.footer .information{
+	line-height: 20px;
+	float: right;
+	padding: 20px;
+}
+.information span{
+	color: red;
+}
+.slidetop{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
